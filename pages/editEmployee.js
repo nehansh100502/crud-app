@@ -16,7 +16,9 @@ async function editEmployee() {
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
   try {
-    let resp = await fetch(`http://localhost:3000/employees/${id}`);
+    let resp = await fetch(
+      `https://crud-app-1-y4xi.onrender.com/employees/${id}`
+    );
     console.log(resp);
 
     if (resp.ok) {
@@ -65,13 +67,16 @@ window.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
     try {
-      let resp = await fetch(`http://localhost:3000/employees/${id}`, {
-        method: "PUT",
-        headers: {
-          "content-type": "application/json",
-        },
-        body: JSON.stringify(updatedEmployeeData),
-      });
+      let resp = await fetch(
+        `https://crud-app-1-y4xi.onrender.com/employees/${id}`,
+        {
+          method: "PUT",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify(updatedEmployeeData),
+        }
+      );
       if (resp.ok) {
         alert("Employee updated successfully!");
         window.location.href = "allemployee.html";

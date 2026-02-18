@@ -33,7 +33,7 @@ employeeForm.addEventListener("submit", async (e) => {
     },
   };
   try {
-    let resp = await fetch("http://localhost:3000/employees", {
+    let resp = await fetch("https://crud-app-1-y4xi.onrender.com/employees", {
       method: "POST",
       headers: {
         "content-type": "application/json",

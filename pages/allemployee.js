@@ -1,5 +1,5 @@
 const employeeList = document.getElementById("employee-list");
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "http://crud-app-1-y4xi.onrender.com";
 
 async function fetchEmployees() {
   try {
@@ -85,7 +85,7 @@ async function deleteEmployee(id) {
 // EDIT employee (redirect)
 function editEmployee(id) {
   // redirect to edit page with employee id
-  window.location.href = `/CRUD-APP/pages/editEmployee.html?id=${id}`;
+  window.location.href = `/pages/editEmployee.html?id=${id}`;
 }
 
 // Load employees on page load
