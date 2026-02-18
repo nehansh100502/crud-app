@@ -1,0 +1,55 @@
+{
+  "employees": [
+    {
+      "id": "26bd",
+      "firstName": "Neha",
+      "middleName": "",
+      "lastName": "Singh",
+      "dob": "2026-02-24",
+      "email": "nehansh100502@gmail.com",
+      "maritalStatus": "Single",
+      "phone": "06392123155",
+      "address": {
+        "street": "Pooni Ka purwa",
+        "city": "Dhata",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "zip": "212641"
+      }
+    },
+    {
+      "id": "1ca4",
+      "firstName": "Hema",
+      "middleName": "",
+      "lastName": "Singh",
+      "dob": "2026-02-02",
+      "email": "nehansh100502@gmail.com",
+      "maritalStatus": "Single",
+      "phone": "06388396401",
+      "address": {
+        "street": "Pooni Ka purwa",
+        "city": "Dhata",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "zip": "212641"
+      }
+    },
+    {
+      "id": "2b29",
+      "firstName": "Hema",
+      "middleName": "",
+      "lastName": "Singh",
+      "dob": "2026-03-06",
+      "email": "hema@gmail.com",
+      "maritalStatus": "Single",
+      "phone": "06388396401",
+      "address": {
+        "street": "Pooni Ka purwa",
+        "city": "Dhata",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "zip": "212641"
+      }
+    }
+  ]
+}
