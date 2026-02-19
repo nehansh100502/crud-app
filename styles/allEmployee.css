@@ -29,11 +29,11 @@ h1{
   
   /* Hover Effect */
   .employee-card:hover {
-    background-color: rebeccapurple;
-    border:3px solid rgb(21, 20, 23);
-    color: #ffffff;
+    background-color: rgb(251, 215, 192);
+    border:3px solid rgb(200, 168, 123);
+    color: #483939;
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 .employee-card {
     height:40%;
@@ -43,8 +43,8 @@ h1{
     margin: 15px;
     line-height:2;
     border-radius: 8px;
-    background-color: white;
-    color:rgb(12, 82, 233)
+    background-color: rgb(246, 226, 226);
+    color:rgb(96, 64, 20)
   }
   
   .action-buttons {
