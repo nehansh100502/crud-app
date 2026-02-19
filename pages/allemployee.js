@@ -1,5 +1,5 @@
 const employeeList = document.getElementById("employee-list");
-const BASE_URL = "http://crud-app-1-y4xi.onrender.com";
+const BASE_URL = "https://crud-app-1-y4xi.onrender.com";
 
 async function fetchEmployees() {
   try {
